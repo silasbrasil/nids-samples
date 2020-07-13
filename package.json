@@ -8,6 +8,11 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@niduu/nids-brand": "^1.0.8",
+    "@niduu/nids-icons": "^1.10.0",
+    "@niduu/nids-images": "^1.1.4",
+    "@niduu/nids-placeload": "^1.0.8",
+    "@niduu/nids-theme": "^1.4.18",
     "core-js": "^3.6.5",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
@@ -25,8 +30,13 @@
     "@vue/cli-service": "^4.4.0",
     "@vue/test-utils": "^1.0.3",
     "node-sass": "^4.12.0",
+    "pug": "^3.0.0",
+    "pug-loader": "^2.4.0",
+    "pug-plain-loader": "^1.0.0",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.11",
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^0.17.0"
   }
 }
